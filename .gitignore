@@ -1,0 +1,12 @@
+.venv/
+venv/
+uploads/
+__pycache__/
+
+.extra
+.env
+.DS_Store
+serviceAccountKey.json
+*.csv
+*.pdf
+

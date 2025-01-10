@@ -1,0 +1,21 @@
+import os
+
+from dotenv import load_dotenv
+
+load_dotenv()
+
+MONGO_CONNSTR = os.environ["MONGO_CONNSTR"]
+JWT_SECRET = os.environ["JWT_SECRET"]
+SMTP_SERVER = os.environ["SMTP_SERVER"]
+SMTP_PORT = os.environ["SMTP_PORT"]
+SMTP_SENDER_EMAIL = os.environ["SMTP_SENDER_EMAIL"]
+GOOGLE_CLIENT_ID = os.environ["GOOGLE_CLIENT_ID"]
+ROOT_PATH = os.environ["ROOT_PATH"]
+FB_CLIENT_ID = os.environ["FB_CLIENT_ID"]
+FB_CLIENT_SECRET = os.environ["FB_CLIENT_SECRET"]
+PAGE_SIZE = 20
+GOOGLE_GENAI_API_KEY = os.environ["GOOGLE_GENAI_API_KEY"]
+GOOGLE_MAPS_API_KEY = os.environ["GOOGLE_MAPS_API_KEY"]
+APPLE_CLIENT_ID = os.environ["APPLE_CLIENT_ID"]
+STRIPE_SECRET_KEY = os.environ["STRIPE_SECRET_KEY"]
+STRIPE_WEBHOOK_SECRET = os.environ["STRIPE_WEBHOOK_SECRET"]
